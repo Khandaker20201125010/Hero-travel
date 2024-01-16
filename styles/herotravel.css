@@ -87,20 +87,97 @@ border-radius: 16px;
 }
 
 .input{
-    border-radius: 8px;
+ border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+ border-radius: 8px;
 display: flex;
-width: 174px;
-height: 52px;
+width: 850px;
+height: 62px;
 justify-content: center;
 margin-left: 400px;
 gap: 20px;
 text-align: center;
 margin-top: 50px;
 border-radius: 5px;
+margin:  auto;
+margin-top: 30px;
+}
+select{
+    width: 174px;
+height: 45px;
+margin: 9px 9px;
+border-radius: 10px;
+padding-left: 20px;
+
+
+
+    
+}
+input{
+    width: 174px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding:20px;
+   
+}
+
+.btn-1 button{
+    width: 174px;
+    height: 42px;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #FF5400;
+    color: #FFF;
+   
+}
+i{
+    padding-right: 8px;
 }
 .tour{
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-evenly;
+    margin: 60px auto;   
 }
+.cont{
+    
+    color: rgba(19, 19, 24, 0.70);
+    width: 577px;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-left: 100px;
+   
+}
+.cont h3{
+color: #131318;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 50px;
+}
+.snd-img{
+    width: 640px;
+height: 550px;
+margin-top: 23px;
+
+}
+.btn-rm{
+    border-radius: 8px;
+background: #FF5400;
+width: 154px;
+height: 52px;
+color: #FFF;
+margin-top: 20px;
+}
+.txt li{
+    margin-top: 20px;
+    font-size: 16px;
+    width: 500px;
+}
+
+
+
+
 
