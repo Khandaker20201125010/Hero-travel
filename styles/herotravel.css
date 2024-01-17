@@ -7,6 +7,7 @@ header{
     text-align: center;
     padding: 5px 100px;
     display: 100%;
+    
    
    
 }
@@ -86,15 +87,6 @@ border-radius: 16px;
 .banner-content p{
     font-size: 16px;
 }
-@media screen and (min-width:576px)and (max-width:992){
-    header{
-        grid-template-columns: repeat(2,1fr);
-       
-    }
-
-}
-    
-
 
 .input{
  border-radius: 8px;
@@ -217,14 +209,17 @@ margin-top: 20px;
 }
 .m-text2{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     align-items: center;
 }
-.m-txt2 h1{
+.wcu{
     color: #131318;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     align-items: center;
+    
+   
+
 }
 .m-text2 p{
     text-align: center;
@@ -241,6 +236,7 @@ margin-top: 20px;
     align-content: center;
     width: 80%;
     gap: 20px;
+    margin-top: 35px;
    
 
 
@@ -271,4 +267,201 @@ margin-top: 20px;
     margin-top: 20px;
     width: 64px;
     height: 64px;
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;  
+    
+  
+    
+}
+.about-us-container{
+    width: 640px;
+    height: 500px;
+    margin-top: 0 auto;
+    margin-left: 150px;
+    border-radius: 16px;
+}
+.txt-about{
+    width: 577px;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ margin-right: 100px;
+   
+}
+.mk{
+    font-size: 16px;
+    width: 530px;
+    color: #5A5A5D;
+}
+.au{
+    color: tomato;
+   
+}
+.txt-about h3{
+    color: tomato;
+}
+.txt-about h1{
+    width: 555px;
+    height: 55px;
+    font-size: 35px;
+}
+.bon{
+    width: 174px;
+    height: 42px;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #FF5400;
+    color: #FFF;
+    border: none;
+}
+.end-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px auto;  
+}
+.cot{
+    width: 480px;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ margin-left: 100px;    
+ margin-right: 80px;
+
+}
+.cot h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.txxt li{
+    color: #131318;
+    margin-top: 20px;
+    font-family: Mulish;
+    font-size: 16px;
+     width: 480px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+
+.v-mg{
+    
+    background-image: url("../Images/Group\ 40089.png");
+    width: 610px;
+    height: 424px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-right: 110px;
+    margin-top: 45px;
+}
+.v-mg h2{
+    text-align: center;
+    color: #FFF;
+    width:  276px;
+    margin: 30% auto;
+  
+}
+.lk{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px auto;  
+}
+.ix{
+   margin-left: 100px;
+    margin-right: auto;
+    margin-top: 50px;
+    flex-direction: column;
+    width: 474px;
+height: 422px;
+    padding-left: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    
+}
+.ix p{
+    color: #5A5A5D;
+    width: 350px;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.oi{
+    width: 393px;
+height: 10px;
+
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+
+.btn-s{
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    font-family: Mulish;
+    width: 435px;
+height: 42px;
+border-radius: 8px;
+background: #FF5400;
+margin-top: 20px;
+
+}
+.mn{
+    color: #FFF;
+    width: 324px;
+ height: 90px; 
+ transform: rotate(-19.628deg);
+ flex-shrink: 0;
+ text-align: center;
+ border-radius: 16px;
+ background-color: #FF5400;
+ margin-top:270px;
+ margin-left: auto;
+ margin-right: 5px;
+
+}
+.nm{
+ 
+    margin-top: 50px;
+}
+.mo{
+    background-image: url("../Images/Rectangle\ 8\ \(1\).png");
+    width: 610px;
+    height: 424px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-right: 110px;
+    margin-top: 45px;
+}   
+.ha{
+    text-align: center;
+    width: 769px;
+    margin: 260px auto;
+}
+.zx{
+    
+    font-size: 28px;
+
+    justify-content: space-between;
+}
+.io-img{
+    width: 50px;
+height: 36.673px;
+    margin-right: 10px;
+
+
+}
+.zx span{
+    text-align: center;
+    color: #FF5400;
+    margin-left: 7px;
+}
+.end{
+    text-align: center;
+    margin-top: 200px;
+    
 }
